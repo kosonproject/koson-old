@@ -93,7 +93,11 @@ invokes cmake commands as needed.
     \- On Ubuntu 16.04, essential dependencies can be installed with the following command:
 
     	sudo apt install build-essential cmake libboost-all-dev libssl-dev pkg-config
-    
+
+    \- On Ubuntu 18.04, essential dependencies can be installed with the following command:
+	
+	sudo apt-get install libssl1.0-dev    
+
 * Change to the root of the source code directory and build:
 
         cd koson
